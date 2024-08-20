@@ -1,0 +1,44 @@
+.receitas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    text-align: left;
+    padding-bottom: 20px; /* Espaço reservado na parte inferior para o botão "Ler mais" */
+
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    height: 120px; /* Altura fixa para manter as receitas do mesmo tamanho */
+    overflow: hidden; /* Ocultar o texto extra */
+    position: relative;
+}
+
+.read-more {
+    display: inline-block; /* Exibe o botão como um bloco em linha */
+    margin-top: 10px; /* Adiciona um espaço acima do botão */
+    background-color: #F2F2F2; /* Cor de fundo do botão */
+    color: #000; /* Cor do texto */
+    padding: 5px 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mãozinha */
+    text-decoration: none; /* Remove a sublinhado padrão do link */
+    font-size: 14px; /* Tamanho da fonte */
+    text-align: center; /* Centraliza o texto dentro do botão */
+}
+
+.read-more:hover {
+        background-color: #F2F2F2; /* Cor de fundo ao passar o mouse */
+    text-decoration: none; /* Garante que o texto não fique sublinhado ao passar o mouse */
+}

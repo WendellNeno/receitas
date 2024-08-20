@@ -1,28 +1,34 @@
 <!DOCTYPE html>
-<html:5>
+<html lang="pt-br">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <html lang="pt-br">
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas Cringe</title>
+    <!-- Link para o CSS do Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <!-- Menu -->
+    <header class="bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="home.html">Receitas Cringe</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="home.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="receitas.html">Receitas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <main>
-        <img src="caminho_para_sua_imagem.png" alt="Logotipo" class="logotipo">
+    <main class="container text-center">
+        <img src="imagens/logotipoSite.svg" alt="Logotipo" class="logotipo">
         <h1>Bem-vindo ao Receitas Cringe</h1>
         <p>Descubra receitas deliciosas e simples de preparar.</p>
     </main>
-    <footer>
+    <footer class="text-center bg-light py-3">
         <p>&copy; 2024 Receitas Cringe</p>
     </footer>
-    
+    <script src="main.js"></script>
 </body>
-</html:5>
+</html>
