@@ -1,3 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2F2F2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Altera a cor de fundo do header */
+header.bg-light {
+    background-color: #F2F2F2 !important;
+}
+
+/* Altera a cor de fundo do footer */
+footer.bg-light {
+    background-color: #F2F2F2 !important;
+}
+
+
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
 .receitas {
     display: flex;
     flex-wrap: wrap;
@@ -42,3 +74,6 @@
         background-color: #F2F2F2; /* Cor de fundo ao passar o mouse */
     text-decoration: none; /* Garante que o texto não fique sublinhado ao passar o mouse */
 }
+
+
+
